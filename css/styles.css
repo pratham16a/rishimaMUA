@@ -99,15 +99,13 @@ li{
 .bottomBar{
     height: auto;
     background-color: #bcb4b3;
+    padding: 2% 3%;
 }
 
 .locationText{
     text-align: left;
-    position: relative;
-    left: 20px;
-    margin: 0%;
     font-size: 1.2rem;
-    margin-bottom: 0.35rem;
+    padding-left: 1rem;
     font-family: 'Questrial', sans-serif;
 }
 
@@ -138,7 +136,7 @@ li{
 .division1{
     margin-top: 0%;
     height: 760px;
-    background-image: url("/home/bobba/Coding/WebDev/rishimaMUA/images/background_marble.png")
+    background-image: url('https://drive.google.com/uc?export=view&id=1jkn6u6zEPUtE19W9WwVO6ezQEisR-D66')
 }
 
 .certificateX{
@@ -148,7 +146,6 @@ li{
     padding-right: 5rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    /* background-color: red; */
 }
 
 .certificateImage{
@@ -252,6 +249,71 @@ li{
   .aboutRishimaSectionX:hover p{
     color: whitesmoke
   }
+
+  .carousel-item{
+    padding: 7% 15%;
+  }
+
+  .carousel-image{
+    width: 300px;
+    border-radius: 1rem;
+  }
+
+  .section-gallery{
+    margin: 5% 5%;
+    border-radius: 1rem;
+}
+
+  .gallery-heading{
+    padding-top: 20px;
+    font-size: 4rem;
+    line-height: 0.99;
+    
+    font-weight: bold;
+  }
+
+  .gallery-heading-even{
+    color: #252525;
+  }
+
+  .even-section-gallery{
+    background-color: #CBC3BD;
+  }
+
+  .odd-section-gallery{
+    background-color: #252525;
+  }
+
+  .gallery-para{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #8f8f8f;
+  }
+
+  .gallery-para-odd{
+    color: #ECE1D6;
+  }
+
+  /* Redone Bottom Bar */
+
+  .contact-icon{
+    font-size: 2rem;
+  }
+
+  .contactTable{
+    margin: 3% 0%;
+  }
+
+  .made-w-love{
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+  .end-text{
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+
 
 
 
@@ -384,6 +446,15 @@ li{
     margin-bottom: 2rem;
 }
 
+#index-carousel{
+    /* width: 70%; */
+    /* margin-left: 15%;
+    margin-right: 15%; */
+    /* margin-top: 2rem; */
+    margin-bottom: 2rem;
+    background-color: #252525;
+}
+
 
 #aboutUSpara1{
     margin-bottom: 2rem;
@@ -444,9 +515,15 @@ li{
     margin-bottom: 4rem;
 }
 
+#getInTouchButton-index{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
 #aboutRishimaHeader{
     margin-top: 6rem;
 }
+
+
 
 
 
