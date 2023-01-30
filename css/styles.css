@@ -251,7 +251,7 @@ li{
   }
 
   .carousel-item{
-    padding: 7% 15%;
+    padding: 7%;
   }
 
   .carousel-image{
@@ -313,11 +313,29 @@ li{
     font-size: 0.9rem;
   }
 
+  .navbar-text-custom{
+    color: #252525;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .navbar-text-custom:hover{
+    color: #8f8f8f;
+  }
+
+  .toggler-button{
+    color: #252525;
+  }
 
 
 
 
 /*id selectors*/
+#navigation-bar-custom{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #f3ede4;
+}
 
 #topbar{
     
@@ -342,8 +360,9 @@ li{
 }
 
 #RALogo{
-    position: relative;
-    top: 40px;
+    
+    margin-top: 9%;
+    margin-bottom: 2%;
     width: 300px;
     height: auto;
 }
