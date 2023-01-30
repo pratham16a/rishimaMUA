@@ -16,21 +16,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <!--Fonts section ends-->
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/25b30aa1ef.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
     <div class="division1">
-        <!-- <nav class="navbar navbar-expand-md">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topbar" aria-controls="topbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button> -->
-            <div id="topbar">
-                <a class="topBarButton" id="topBarButton1" href="">Gallery</a>
-                <a class="topBarButton" id="topBarButton2" href="index.html">Home</a>
-                <a class="topBarButton" id="topBarButton4" href="services.html">Services</a>
-                <a class="topBarButton" id="topBarButton3" href="getInTouch.html">Get In Touch</a>
-            </div>
-        <!-- </nav> -->
+        <section id="title">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-md fixed-top" id="navigation-bar-custom">
+                <div class="container-fluid">
+                    <button class="navbar-toggler toggler-button me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="navbarNav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-auto me-auto pt-3 pb-3">
+                            <li class="navbar-item">
+                              <a class="nav-link navbar-text-custom" href="gallery.html">Gallery</a>
+                            </li>
+                            <li>  
+                                <a class="nav-link navbar-text-custom" href="services.html">Services</a>
+                            </li>
+                            <li>
+                                <a class="nav-link navbar-text-custom" href="getInTouch.html">Get in Touch</a>
+                            </li>
+                            <li>
+                                <a class="nav-link navbar-text-custom" href="index.html">Home</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>  
+            </nav>
+    </section>
         <h1 id="aboutRishimaHeader">About Rishima</h1>
     </div>
 
@@ -41,11 +59,6 @@
             <p class="aboutRishimaPara">Ever since I was a kid I was always driven to anything creative. I remember spending hours drawing and painting and sketching and coloring even though I wasn't very good at it. I also remember just standing beside my mother's dressing table and watching her as she did her makeup. Back then my mother was the go to girl if anyone wanted to get their eveliner done, including myself. I think it was the sheer act of seeing my mother do her makeup and notice how beautiful she looked afterwards which made me want to be able to do the kind of sorcery she did. </p>
             <p class="aboutRishimaPara">When I was around 14 years old, I would try different makeup looks and hairstyles on my younger sister. We would talk about our day, anything that was bothering us. It was our way of spending quality time together. </p>
             <p class="aboutRishimaPara">Halloween was my favorite day of the year as I would get a chance to dress my siblings up in over the top costumes and makeup. Halloween wasn't a huge deal back then in our small town and we would just celebrate it as a family, at home, pulling pranks on each other. I remember this one Halloween day in particular when my little brother dressed as Jigsaw, my sister as Annabelle and youngest brother as a skeleton. The funniest part is that I did not have any real makeup products so I used poster paints on them. </p>
-            <div class="earlyYearsImageDiv">
-                <img src="images/babyRadhika.jpg" alt="" class="earlyYearsImage">
-                <img src="images/jiya.jpg" alt="" class="earlyYearsImage">
-                <img src="images/halloween1.jpg" alt="" class="earlyYearsImage">
-            </div>
             <p class="abourRishimaPara">In retrospect, I owe a lot of my passion towards the beauty and aesthetics industry because of my younger siblings who would always go along with my crazy plans and would let me experiment on them. </p>
         </div>
 
@@ -63,45 +76,73 @@
             <p class="aboutRishimaPara">Fast Forward to 2022 when I returned back to India and in September, started my business as Rishima Aggarwal Makeup Artist.</p>
         </div>
 
+        <div class="contentDiv">
+            <img src="images/babyRadhika.jpg" alt="" class="earlyYearsImage">
+            <img src="images/jiya.jpg" alt="" class="earlyYearsImage">
+            <img src="images/halloween1.jpg" alt="" class="earlyYearsImage">
+        </div>
+
     </div>
 
     
 
     
 
-    <div class="bottomBar">
-        <div id="location">
-            <table>
-                <tr>
-                    <td><img id="locationPin" src="images/placeholder.png" title="Icon made by Freepik from www.flaticon.com"></td>
-                    <td>
-                        <p class="locationText">Hoshiarpur, Punjab</p>
-                        <p class="locationText">India</p>
-                        <p class="locationText">146001</p>  
-                    </td>
-                </tr>
-            </table>
+    <!-- RESPONSIVE NEW BOTTOMBAR -->
+    <div class="container-fluid bottomBar">
+        <div class="row align-items-center">
+
+            <!-- contact information -->
+            <div class="col-lg-4">
+                <table class="contactTable mx-auto">
+                    <tr>
+                        <td><i class="fa-solid fa-phone contact-icon"></i></td>
+                        <td class="contactTextAlign"><a class="contactText" href="">+91 9780017475</a></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-envelope contact-icon"></i></td>
+                        <td class="contactTextAlign"><a class="contactText" href="mailto:rishimamakeupartist@gmail.com">rishimamakeupartist@gmail.com</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><i class="fa-brands fa-instagram contact-icon"></i></td>
+                        <td class="contactTextAlign"><a class="contactText" href="https://instagram.com/rishimamakeupartist?igshid=YWJhMjlhZTc=">@rishimamakeupartist</a></td>
+                    </tr>
+                </table>
+                
+            </div>
+
+            <!-- bottom bar logo -->
+            <div class="col-lg-4">
+                <img src="images/RA_logo_final_crop.png" alt="Rishima Makeup Artist" id="logoBottomBar">
+
+            </div>
+
+            <!-- location information -->
+            <div class="col-lg-4">
+
+                <table class="contactTable mx-auto">
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-location-dot contact-icon"></i>
+                        </td>
+                        <td>
+                            <p class="locationText">Hoshiarpur, Punjab</p>
+                            <p class="locationText">India</p>
+                            <p class="locationText">146001</p>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
         </div>
 
-        <div id="contact">
-            <table>
-                <tr>
-                    <td><img class="contactIcon" src="images/phone-call.png" alt="phoneIcon" title="Icon made by Ilhalm Fitrotul Hayat from www.favicon.com"></td>
-                    <td class="contactTextAlign"><a class="contactText">+91 9780017475</a></td>
-                </tr>
-                <tr>
-                    <td><img class="contactIcon" src="images/email.png" alt="mailIcon" title="Icon made by Freepik from www.flaticon.com"></td>
-                    <td class="contactTextAlign"><a class="contactText" href="mailto:rishimamakeupartist@gmail.com">rishimamakeupartist@gmail.com</a></td>
-                </tr>
-                <tr>
-                    <td><img class="contactIcon" src="images/instagram.png"  alt="instaIcon" title="Icon made by Freepik from www.flaticon.com"></td>
-                    <td class="contactTextAlign"><a class="contactText" href="https://instagram.com/rishimamakeupartist?igshid=YWJhMjlhZTc=">rishimamakeupartist</a></td>
-                </tr>
-            </table>
+        <div class="row align-items-center made-w-love">
+            <div class="col-lg-4 mx-auto">
+                <p class="end-text">Made with <i class="fa-solid fa-heart end-text"></i> by Bobba</p>
+            </div>
         </div>
-
-        <img src="images/RA_logo_final_crop.png" alt="Rishima Makeup Artist" id="logoBottomBar">
-
         
     </div>
     
